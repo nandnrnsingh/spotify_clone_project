@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;400&family=Open+Sans:wght@800&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Geologica', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: whitesmoke;
+}
+nav ul li{
+    padding: 0 15px;
+}
+
+.brand img{
+    width: 55px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 50vh;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Geologica', sans-serif;
+
+    display: flex;
+    margin: 23px auto;
+    padding: 34px;
+    width: 70%;
+
+    background-image: url('./img/modal.jpg');
+    background-repeat:no-repeat ;
+    
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color:black;
+    color: whitesmoke;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#myprogressbar{
+    width:80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 20px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+.songiteam{
+    display: flex;
+    height: 50px;
+    width: 70%;
+    background-color: whitesmoke;
+    color: black;
+    margin: 12px 0;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 35px;
+}
+.songiteam img{
+    border-radius: 34px;
+    width: 35px;
+    margin: 0 23px;
+}
+.time{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
